@@ -1,0 +1,9 @@
+terraform {
+  backend "s3" {
+    bucket = "" 
+    key    = ""
+    region = ""
+    profile= ""
+    encrypt = true
+  }
+}
